@@ -4,8 +4,10 @@ Repositório criado com o objetivo de reunir em um só lugar os projetos desenvo
 
 Pastas ordenadas cronologicamente:
 
-1ª - Portfolio (Landing page de divulgação de um perfil profissional, tecnologias: HTML e CSS)
+- A partir do zero: HTML e CSS para projetos web:
 
-2ª - Alura Plus (Modelo de página inicial de um serviço de streaming, tecnologias: HTML e CSS)
+1ª - Portfolio (Landing page de divulgação de um perfil profissional)
 
-3ª - Alura Books (Modelo de uma aplicação de livros, tecnologias: HTML e CSS)
+2ª - Alura Plus (Modelo de página inicial de um serviço de streaming)
+
+3ª - Alura Books (Modelo de uma aplicação de livros)

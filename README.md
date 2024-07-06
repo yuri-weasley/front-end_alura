@@ -11,3 +11,7 @@ Pastas ordenadas cronologicamente:
 2ª - Alura Plus (Modelo de página inicial de um serviço de streaming)
 
 3ª - Alura Books (Modelo de uma aplicação de livros)
+
+- Acessibilidade e Tecnologias Web
+
+1ª - Calmaria Spa (Página criada e adaptada para a acessibilidade)

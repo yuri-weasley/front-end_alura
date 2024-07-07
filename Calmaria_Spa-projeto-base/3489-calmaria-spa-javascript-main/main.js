@@ -1,3 +1,25 @@
+function alternarModal(modalId, abrir) {
+    const modal = document.querySelector(`#${modalId}`);
+
+    if(abrir) {
+        modal.style.display = "block";
+    } else {
+        modal.style.display = "none";
+    }
+
+    document.body.style.overflow = abrir ? "hidden" : "auto";
+}
+
+document.addEventListener('keydown', (event) => {
+    if (event.key ==="Escape") {
+        alternarModal("ver-modal-inscrito", false);
+
+        document.querySelectorAll(".cabecalho__lista-item").forEach((item) => {
+            alternarSubmenu(item, false);
+        });
+    }
+});
+
 function alternarSubmenu(item, mostrar) {
     const submenu = item.querySelector(".submenu");
 
@@ -28,3 +50,23 @@ document.querySelectorAll('.cabecalho__lista-item').forEach(item => {
         alternarSubmenu(item, !isDisplayed);
     })
 });
+
+/*
+* Acordeon
+*/
+document.querySelectorAll(".botao-acordeao").forEach((button) => {
+    button.addEventListener("click", () => alternarAcordeao(button));
+});
+
+function alternarAcordeao(button) {
+    const isAlreadyOpen = button.getAtributte(("aria-expanded") === true);
+
+    if(!isAlreadyOpen) {
+        button.setAttribute("aria-expanded", true);
+
+        const content = button.nextElementSibling;
+        content.classList.add("expandido");
+
+        content.setAttribute("aria-hidden", false);
+    }
+}

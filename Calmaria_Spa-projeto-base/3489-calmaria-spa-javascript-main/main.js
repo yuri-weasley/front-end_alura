@@ -54,19 +54,27 @@ document.querySelectorAll('.cabecalho__lista-item').forEach(item => {
 /*
 * Acordeon
 */
-document.querySelectorAll(".botao-acordeao").forEach((button) => {
+document.querySelectorAll(".botao-acordeao").forEach(button => {
     button.addEventListener("click", () => alternarAcordeao(button));
 });
 
 function alternarAcordeao(button) {
-    const isAlreadyOpen = button.getAtributte("aria-expanded") === true;
+    const isAlreadyOpen = button.getAttribute("aria-expanded") === "true";
+
+    document.querySelectorAll(".botao-acordeao").forEach(btn => {
+        btn.setAttribute("aria-expanded", "false");
+
+        const content = btn.nextElementSibling;
+        content.classList.remove("expandido");
+        content.setAttribute("aria-hidden", "true");
+    })
 
     if(!isAlreadyOpen) {
-        button.setAttribute("aria-expanded", true);
+        button.setAttribute("aria-expanded", "true");
 
         const content = button.nextElementSibling;
         content.classList.add("expandido");
 
-        content.setAttribute("aria-hidden", false);
+        content.setAttribute("aria-hidden", "false");
     }
 }

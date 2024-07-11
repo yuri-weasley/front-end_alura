@@ -8,6 +8,9 @@ botoesCategorias.forEach((botao) => {
     filtrarPorCategoria(categoriaSelecionada);
     atualizarEstadosDosBotoes(categoriaSelecionada);
   });
+
+  botao.addEventListener("keydown", mudarFocoPorTeclado());
+
 });
 
 function associarPainel(categoriaSelecionada) {
@@ -36,5 +39,26 @@ function atualizarEstadosDosBotoes(categoriaSelecionada) {
 
     //botao.classList.toggle("selecionado", botaoFoiSelecionado);
     botao.ariaSelected = botaoFoiSelecionado;
+    botao.setAttribute("tabindex", botaoFoiSelecionado ? 0 : -1);
   })
+}
+
+const tablist = document.querySelector('[role="tablist"]');
+
+function mudarFocoPorTeclado(evento) {
+  const botaoAtual = evento.target;
+
+  if (evento.key === "ArrowRight") {
+    if(botaoAtual === tablist.lastElementChild) {
+      tablist.firstElementChild.focus();
+    } else {
+    botaoAtual.nextElementSibling.focus();
+    }
+  } else if (evento.key === "ArrowLeft") {
+    if (botaoAtual === tablist.firstElementChild) {
+      tablist.lastElementChild.focus();
+    } else {
+      botaoAtual.previousElementSibling.focus();
+    }
+  }
 }

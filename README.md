@@ -18,4 +18,6 @@ Pastas ordenadas cronologicamente:
 
 2ª - VidFlow (Página do VidFlow adaptada para ser acessível com WAi-ARIA e JavaScript)
 
-3ª - 
+- TypeScript (Iria começar a estudar Angular, mas para isso é necessário o conhecimento de TypeScript, portanto iniciei os estudos nele por aqui. "Díficil não saber nada" - o autor, mega inspirado)
+
+1ª - Projeto ByteBank

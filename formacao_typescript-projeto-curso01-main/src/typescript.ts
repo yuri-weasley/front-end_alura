@@ -10,21 +10,21 @@ const lista: number[] = [];
 lista.push(13, 22.5, 12, 89,1.58);
 
 //Tipos Personalizados (Type Alias)
-type Transacao = {
-    tipoTransacao: TipoTransacao;
+type Operacao = {
+    tipoOperacao: TipoOperacao;
     data: Date;
     valor: number;
 }
 
 //Enum
-enum TipoTransacao {
+enum TipoOperacao {
     DEPOSITO = "Depósito",
     TRANSFERENCIA = "Transferência",
     PAGAMENTO_BOLETO = "Pagamento de Boleto"
 }
 
-const novaTransacao: Transacao = {
-    tipoTransacao: TipoTransacao.PAGAMENTO_BOLETO,
+const novaOperacao: Operacao = {
+    tipoOperacao: TipoOperacao.PAGAMENTO_BOLETO,
     data: new Date(),
     valor: 0
 }

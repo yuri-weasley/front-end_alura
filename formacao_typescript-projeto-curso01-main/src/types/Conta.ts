@@ -7,7 +7,7 @@ const Conta = {
     getSaldo() {
         return saldo;
     },
-
+    
     getDataAcesso(): Date {
         return new Date();
     },

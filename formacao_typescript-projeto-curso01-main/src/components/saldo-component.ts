@@ -10,9 +10,9 @@ if(elementoDataAcesso != null) {
 }
 
 renderizarSaldo();
-function renderizarSaldo(novoSaldo: number): void {
+function renderizarSaldo(): void {
     if(elementoSaldo != null ) {
-        elementoSaldo.textContent = formatarMoeda(Conta.getSaldo);
+        elementoSaldo.textContent = formatarMoeda(Conta.getSaldo());
     }
 }
 

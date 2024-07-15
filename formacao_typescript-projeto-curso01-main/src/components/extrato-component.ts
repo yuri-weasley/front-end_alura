@@ -1,5 +1,5 @@
 import Conta from "../types/Conta.js";
-import { FormatoData } from "../types/FormatoData";
+import { FormatoData } from "../types/FormatoData.js";
 import { GrupoTransacao } from "../types/GrupoTransacao.js";
 import { formatarMoeda } from "../utils/formatters.js";
 
@@ -18,9 +18,9 @@ function renderizarExtrato(): void {
              <div class="transacao-item">
                         <div class="transacao-info">
                             <span class="tipo">${transacao.tipoTransacao}</span>
-                            <strong class="valor">${formatarMoeda(transacao.valor)}-R$ 36,00</strong>
+                            <strong class="valor">${formatarMoeda(transacao.valor)}</strong>
                         </div>
-                        <time class="data">${formatarDara(transacao.data, FormatoData.DIA_MES)}</time>
+                        <time class="data">${formatarData(transacao.data, FormatoData.DIA_MES)}</time>
                     </div>
              `;
         }
@@ -37,3 +37,11 @@ function renderizarExtrato(): void {
 
     elementoRegistroTransacoesExtrato.innerHTML = htmlRegistroTransacoes;
 }
+
+const ExtratoComponent = {
+    atualizar(): void {
+        renderizarExtrato();
+    }
+}
+
+export default ExtratoComponent;

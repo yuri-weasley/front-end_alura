@@ -21,3 +21,5 @@ Pastas ordenadas cronologicamente:
 - TypeScript (Iria começar a estudar Angular, mas para isso é necessário o conhecimento de TypeScript, portanto iniciei os estudos nele por aqui. "Díficil não saber nada" - o autor, mega inspirado)
 
 1ª - Projeto ByteBank
+
+2ª - Evoluindo o Projeto Fokus com o TS

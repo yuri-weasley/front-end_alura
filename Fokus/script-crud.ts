@@ -32,3 +32,14 @@ const selecionarTarefa = (estado: EstadoAplicacao, tarefa: Tarefa): EstadoAplica
         tarefaSelecionada: tarefa === estado.tarefaSelecionada ? null : tarefa
     }
 }
+
+const atualizarUI = () => {
+    const ulTarefas = document.querySelector('.app__section-task-list')
+    if(ulTarefas) {
+        ulTarefas.innerHTML = ''
+    }
+
+    estadoInicial.tarefas.forEach(tarefas => {
+        
+    })
+}

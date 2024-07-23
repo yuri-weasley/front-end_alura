@@ -1,0 +1,14 @@
+{
+  "name": "fokus",
+  "version": "1.0.0",
+  "description": "compilador ts do fokus",
+  "main": "script-crud.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yuri Weasley",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.5.4"
+  }
+}

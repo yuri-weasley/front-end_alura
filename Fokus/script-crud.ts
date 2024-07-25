@@ -113,3 +113,10 @@ const atualizarUI = () => {
         ulTarefas?.appendChild(li)
     })
 }
+
+document.addEventListener('TarefaFinalizada', () => {
+    if(estadoInicial.tarefaSelecionada) {
+        estadoInicial.tarefaSelecionada.concluida = true
+        atualizarUI()
+    }
+})

@@ -4,3 +4,24 @@
 .divs-facilidades {
     width: 325px;
 }
+.verde-limao {
+    color: #DAFF01;
+}
+.botao-lilas {
+    background-color: #9353FF;
+    border-radius: 3px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.botao-lilas:hover {
+    background-color: #813bf9;
+}
+.posicao {
+    top: 40%;
+}
+@media(max-width: 767px){
+    .posicao{
+        top:60%;
+    }
+}

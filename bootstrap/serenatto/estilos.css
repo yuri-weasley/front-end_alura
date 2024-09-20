@@ -18,6 +18,14 @@ input[type="checkbox"]:focus {
   outline: none;
 }
 
+.form-range::-webkit-slider-thumb {
+  background-color: var(--marrom-claro);
+}
+
+footer {
+  background-color: var(--marrom-claro);
+}
+
 .banner-1 {
   background-image: url(assets/banner-1.png);
 }
@@ -44,4 +52,14 @@ input[type="checkbox"]:focus {
 }
 .botao-padrao:hover {
   background-color: var(--marrom-escuro);
+}
+
+[data-bs-theme="dark"] {
+  color: white;
+  .nav-link, .card-body, .offcanvas, .accordion, .btn {
+    --bs-nav-link-color: white;
+    --bs-card-color: white;
+    --bs-offcanvas-color: white;
+    --bs-body-color: white;
+  }
 }

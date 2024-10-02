@@ -1,3 +1,4 @@
+import { domInjector } from "../decorators/dom-injector.js";
 import { inspect } from "../decorators/inspect.js";
 import { logarTempoDeExecucao } from "../decorators/logar-tempo-de-execucao.js";
 import { DiasDaSemana } from "../enums/dias-da-semana.js";
@@ -7,17 +8,17 @@ import { MensagemView } from "../views/mensagem-view.js";
 import { NegociacoesView } from "../views/negociacoes-view.js";
 
 export class NegociacaoController {
+    @domInjector('#data')
     private inputData: HTMLInputElement;
-    private inputQuantidade: HTMLInputElement | null;
-    private inputValor: HTMLInputElement | null;
+    @domInjector('#quantidade')
+    private inputQuantidade: HTMLInputElement;
+    @domInjector('#valor')
+    private inputValor: HTMLInputElement;
     private negociacoes = new Negociacoes();
     private negociacoesView = new NegociacoesView('#negociacoesView');
     private mensagemView = new MensagemView('#mensagemView');
 
     constructor () {
-        this.inputData = <HTMLInputElement>document.querySelector('#data');
-        this.inputQuantidade = document.querySelector('#quantidade') as HTMLInputElement; //"Casting" explícito, ou na frente do método como na linha 18.
-        this.inputValor = document.querySelector('#valor') as HTMLInputElement;
         this.negociacoesView.update(this.negociacoes);
     }
 
@@ -29,7 +30,7 @@ export class NegociacaoController {
             this.inputData.value,
             this.inputQuantidade.value,
             this.inputValor.value
-        );
+        );  
     
         if (!this.ehDiaUtil(negociacao.data)) {
             this.mensagemView.update('Apenas negociações em dias úteis são aceitas.');

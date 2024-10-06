@@ -2,15 +2,15 @@
 ## Cursos da formação front-end da alura
 Repositório criado com o objetivo de reunir em um só lugar os projetos desenvolvidos na formação Front-end da Alura.
 
-Pastas ordenadas cronologicamente:
+Ordenação dos arquivos:
 
 - A partir do zero: HTML e CSS para projetos web:
 
-1ª - Portfolio (Landing page de divulgação de um perfil profissional)
+1ª - Pasta "portfolio" -> Landing page de divulgação de um perfil profissional. Feito no curso de HTML e CSS na alura com a Rafa Ballerini e o Gui Lima;
 
-2ª - Alura Plus (Modelo de página inicial de um serviço de streaming)
+2ª - "aluraPlus" -> Modelo de página inicial de um serviço de streaming;
 
-3ª - Alura Books (Modelo de uma aplicação de livros)
+3ª - "aluraBooks" -> Modelo de uma aplicação de livros;
 
 - Acessibilidade e Tecnologias Web
 

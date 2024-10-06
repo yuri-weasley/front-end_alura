@@ -20,6 +20,8 @@ Ordenação dos arquivos:
 
 - TypeScript (Iria começar a estudar Angular, mas para isso é necessário o conhecimento de TypeScript, portanto iniciei os estudos nele por aqui).
 
-1ª - Projeto ByteBank
+1ª - "byteBank" -> Um projeto de aplicação bancária feito com TypeScript;
 
-2ª - Evoluindo o Projeto Fokus com o TS
+2ª - "Fokus" -> Evoluindo com TypeScript o projeto Fokus desenvolvido no curso de JavaScript;
+
+3ª - "bolsa" -> Projeto desenvolvido com o Flávio nos 3 cursos "básicos" de TypeScript. A aplicação simula negociações em bolsa de valores;

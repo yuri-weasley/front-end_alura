@@ -25,3 +25,7 @@ Ordenação dos arquivos:
 2ª - "Fokus" -> Evoluindo com TypeScript o projeto Fokus desenvolvido no curso de JavaScript;
 
 3ª - "bolsa" -> Projeto desenvolvido com o Flávio nos 3 cursos "básicos" de TypeScript. A aplicação simula negociações em bolsa de valores;
+
+- Formação Bootstrap (no meio disso tudo descobri o framework css "Bootstrap", e decidi estudá-lo por conta de facilidade absurda que ele proporciona ao desenvolvimento web).
+
+Pasta única "bootstrap" -> Formação completa do curso de Bootstrap com o desenvolvimento de 2 projetos bem legais: o projeto Meteora (page de uma loja de roupas) e o projeto Serenatto (page de uma cafeteria). Nessas pages foram utilizadas bastante técnicas interessantes que o framework possui.

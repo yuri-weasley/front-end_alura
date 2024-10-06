@@ -14,9 +14,9 @@ Ordenação dos arquivos:
 
 - Acessibilidade e Tecnologias Web
 
-1ª - Calmaria Spa (Página criada e adaptada para a acessibilidade)
+1ª - "calmariaSpa" -> Página de um Spa criada e adaptada para a acessibilidade;
 
-2ª - VidFlow (Página do VidFlow adaptada para ser acessível com WAi-ARIA e JavaScript)
+2ª - "vidFlow" -> Página do VidFlow adaptada para ser acessível com WAi-ARIA e JavaScript;
 
 - TypeScript (Iria começar a estudar Angular, mas para isso é necessário o conhecimento de TypeScript, portanto iniciei os estudos nele por aqui).
 

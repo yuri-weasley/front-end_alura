@@ -29,3 +29,7 @@ Ordenação dos arquivos:
 - Formação Bootstrap - no meio disso tudo descobri o framework CSS "Bootstrap", e decidi estudá-lo por conta da facilidade absurda que ele proporciona ao desenvolvimento web.
 
 Pasta única "bootstrap" -> Formação completa do curso de Bootstrap com o desenvolvimento de 2 projetos bem legais: o projeto Meteora (page de uma loja de roupas) e o projeto Serenatto (page de uma cafeteria). Nessas pages foram utilizadas bastante técnicas interessantes que o framework possui.
+
+- Formação Angular
+
+1ª - aluraMidi -> Projeto feito com a instrutora Vanessa Tonini de um player de sons usando JavaScript;

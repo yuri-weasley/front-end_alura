@@ -6,7 +6,7 @@ Ordenação dos arquivos:
 
 - A partir do zero: HTML e CSS para projetos web:
 
-1ª - Pasta "portfolio" -> Landing page de divulgação de um perfil profissional. Feito no curso de HTML e CSS na alura com a Rafa Ballerini e o Gui Lima;
+1ª - Pasta "portfolio" -> Landing page de divulgação de um perfil profissional. Feito nos cursos "HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags" e "HTML e CSS: Classes, posicionamento e Flexbox" com a Rafa Ballerini e o Gui Lima;
 
 2ª - "aluraPlus" -> Modelo de página inicial de um serviço de streaming;
 
@@ -32,4 +32,4 @@ Pasta única "bootstrap" -> Formação completa do curso de Bootstrap com o dese
 
 - Formação Angular
 
-1ª - aluraMidi -> Projeto feito com a instrutora Vanessa Tonini de um player de sons usando JavaScript;
+1ª - aluraMidi -> Projeto feito no curso "JavaScript para Web: Crie páginas dinâmicas" com a instrutora Vanessa Tonini de um player de sons usando JavaScript;

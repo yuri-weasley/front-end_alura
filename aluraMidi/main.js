@@ -55,11 +55,6 @@ while(contador < listaDeTeclas.length) {
 }
 */
 
-
-
-
-
-
 /* 
 Forma não muito útil do código/funcionalidade:
 

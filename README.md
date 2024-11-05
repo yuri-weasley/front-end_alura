@@ -22,7 +22,7 @@ Ordenação dos arquivos:
 
 1ª - "byteBank" -> Um projeto de aplicação bancária feito com TypeScript;
 
-2ª - "Fokus" -> Evoluindo com TypeScript o projeto Fokus desenvolvido no curso de JavaScript;
+2ª - "Fokus" -> Evoluindo com TypeScript o projeto Fokus desenvolvido com o instrutor Luan Alves no curso de "JavaScript: manipulando o DOM";
 
 3ª - "bolsa" -> Projeto desenvolvido com o Flávio Almeida nos 3 cursos "básicos" de TypeScript. A aplicação simula negociações em bolsa de valores;
 
@@ -33,3 +33,4 @@ Pasta única "bootstrap" -> Formação completa do curso de Bootstrap com o dese
 - Formação Angular
 
 1ª - aluraMidi -> Projeto feito no curso "JavaScript para Web: Crie páginas dinâmicas" com a instrutora Vanessa Tonini de um player de sons usando JavaScript;
+

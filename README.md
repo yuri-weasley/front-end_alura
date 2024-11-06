@@ -22,7 +22,7 @@ Ordenação dos arquivos:
 
 1ª - "byteBank" -> Um projeto de aplicação bancária feito com TypeScript;
 
-2ª - "Fokus" -> Evoluindo com TypeScript o projeto Fokus desenvolvido com o instrutor Luan Alves no curso de "JavaScript: manipulando o DOM";
+2ª - "Fokus" -> Evoluindo com TypeScript o projeto Fokus desenvolvido com o instrutor Luan Alves no curso "JavaScript: manipulando o DOM";
 
 3ª - "bolsa" -> Projeto desenvolvido com o Flávio Almeida nos 3 cursos "básicos" de TypeScript. A aplicação simula negociações em bolsa de valores;
 

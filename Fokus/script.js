@@ -10,8 +10,8 @@ const tempoNaTela = document.querySelector('#timer');
 const musicaFocoInput = document.querySelector('#alternar-musica');
 const musica = new Audio('sons/luna-rise-part-one.mp3');
 musica.loop = true;
-var tempoDecorridoEmSegundos = 1500;
-var intervaloId = null;
+let tempoDecorridoEmSegundos = 1500;
+let intervaloId = null;
 const somPlay = new Audio('sons/play.wav');
 const somPause = new Audio('sons/pause.mp3');
 const somBeep = new Audio('sons/beep.mp3');
@@ -19,10 +19,10 @@ const somBeep = new Audio('sons/beep.mp3');
 const temp = document.querySelector('.app__card-timer');
 const imagem = document.querySelector('.app__image');
 const frase = document.querySelector('.app__title');
-var btnInicio = document.querySelector('.app__card-primary-button');
-var btnFoco = document.querySelector('.app__card-button--foco');
-var btnCurto = document.querySelector('.app__card-button--curto');
-var btnLongo = document.querySelector('.app__card-button--longo');
+let btnInicio = document.querySelector('.app__card-primary-button');
+let btnFoco = document.querySelector('.app__card-button--foco');
+let btnCurto = document.querySelector('.app__card-button--curto');
+let btnLongo = document.querySelector('.app__card-button--longo');
 const tempoFoco = 1500;
 const tempoCurto = 300;
 const tempoLongo = 900;
@@ -55,7 +55,7 @@ musicaFocoInput.addEventListener('change', () => {
 })
 function alterarContexto(contexto) {
     mostrarTempo()
-    botoes.forEach(function(contexto){
+    botoes.forEach(function(contexto) {
         contexto.classList.remove('active');
     })
     html.setAttribute('data-contexto', contexto);

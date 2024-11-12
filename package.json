@@ -1,0 +1,11 @@
+{
+  "name": "front-end_alura",
+  "version": "1.0.0",
+  "description": "Repositório criado com o objetivo de reunir em um só lugar os projetos desenvolvidos na formação Front-end da Alura.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

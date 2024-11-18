@@ -20,7 +20,7 @@ Ordenação dos arquivos:
 
 - TypeScript (Iria começar a estudar Angular, mas para isso é necessário o conhecimento de TypeScript, portanto iniciei os estudos nele por aqui).
 
-1ª - "byteBank" -> Um projeto de aplicação bancária feito com TypeScript;
+1ª - "byteBank" -> Um projeto de aplicação que faz registros dentro de uma conta feito no curso "TypeScript na prática: implemente um projeto completo com TypeScript e módulos" com o instrutor Jhonatan Jacinto;
 
 2ª - "Fokus" -> Evoluindo com TypeScript o projeto Fokus desenvolvido com o instrutor Luan Alves no curso "JavaScript: manipulando o DOM";
 
@@ -32,5 +32,5 @@ Pasta única "bootstrap" -> Formação completa do curso de Bootstrap com o dese
 
 - Formação Angular
 
-1ª - aluraMidi -> Projeto feito no curso "JavaScript para Web: Crie páginas dinâmicas" com a instrutora Vanessa Tonini de um player de sons usando JavaScript;
+1ª - "aluraMidi" -> Projeto feito no curso "JavaScript para Web: Crie páginas dinâmicas" com a instrutora Vanessa Tonini de um player de sons usando JavaScript;
 

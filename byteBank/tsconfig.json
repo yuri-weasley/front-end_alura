@@ -1,11 +1,12 @@
 {
     "compilerOptions": {
-        "target": "ES2022",
+        "target": "ES2022", //ESNext para compilar para a versão mais recente MESMO
         "outDir": "./dist/js/",
         "noEmitOnError": true,
         "experimentalDecorators": true
     },
     "include": [
+        //Pastas onde ele deve procurar os arquivos TS
         "./src/**/*"
     ]
 }

@@ -4,6 +4,8 @@ import SaldoComponent from "./saldo-component.js";
 import Conta from "../types/Conta.js";
 import ExtratoComponent from "./extrato-component.js";
 
+//Esse arquivo controla o formulário de novas transações
+
 const elementoFormulario = document.querySelector(".block-nova-transacao form") as HTMLFormElement;
 elementoFormulario.addEventListener("submit", function(event) {
     try 

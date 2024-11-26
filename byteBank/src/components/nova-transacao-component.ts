@@ -9,7 +9,7 @@ import ExtratoComponent from "./extrato-component.js";
 const elementoFormulario = document.querySelector(".block-nova-transacao form") as HTMLFormElement;
 elementoFormulario.addEventListener("submit", function(event) {
     try 
-    {
+    {   
         event.preventDefault();
         if (!elementoFormulario.checkValidity()) {
             alert("Por favor, preencha todos os campos da transação!");

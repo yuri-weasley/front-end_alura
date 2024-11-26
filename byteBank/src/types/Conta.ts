@@ -1,3 +1,5 @@
+//Módulo que representa a nossa conta
+
 import { Armazenador } from "./armazenador.js";
 import { ValidaDebito, ValidaDeposito } from "./Decorator.js";
 import { GrupoTransacao } from "./GrupoTransacao.js";

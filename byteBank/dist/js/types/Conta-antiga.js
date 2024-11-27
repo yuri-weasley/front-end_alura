@@ -1,3 +1,8 @@
+/*
+    Módulo que representa a nossa conta
+Foi excluído para que pudéssemos sair do paradigma funcional para o O.O, porém serviu de base para a construção do obejto conta
+
+*/
 import { TipoTransacao } from "./TipoTransacao.js";
 let saldo = JSON.parse(localStorage.getItem("saldo")) || 0;
 const transacoes = JSON.parse(localStorage.getItem("transacoes"), (key, value) => {
@@ -33,7 +38,9 @@ const Conta = {
     getGruposTransacoes() {
         const gruposTransacoes = [];
         const listaTransacoes = structuredClone(transacoes);
+        //comando que faz uma cópia do objeto, sem alterar o original
         const transacoesOrdenadas = listaTransacoes.sort((t1, t2) => t2.data.getTime() - t1.data.getTime());
+        //ordena as datas da mais recente para a mais antiga
         let labelAtualGrupoTransacao = "";
         for (let transacao of transacoesOrdenadas) {
             let labelGrupoTransacao = transacao.data.toLocaleDateString("pt-br", { month: "long", year: "numeric" });
@@ -45,6 +52,7 @@ const Conta = {
                 });
             }
             gruposTransacoes.at(-1).transacoes.push(transacao);
+            //at -1 vai na última posição do array
         }
         return gruposTransacoes;
     },

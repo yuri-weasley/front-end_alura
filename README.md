@@ -20,7 +20,7 @@ Ordenação dos arquivos:
 
 - TypeScript (Iria começar a estudar Angular, mas para isso é necessário o conhecimento de TypeScript, portanto iniciei os estudos nele por aqui).
 
-1ª - "byteBank" -> Um projeto de aplicação que faz registros dentro de uma conta feito no curso "TypeScript na prática: implemente um projeto completo com TypeScript e módulos" com o instrutor Jhonatan Jacinto;
+1ª - "byteBank" -> Um projeto de aplicação que faz registros dentro de uma conta feito no curso "TypeScript na prática: implemente um projeto completo com TypeScript e módulos" com o instrutor Jhonatan Jacinto, e que foi transformado do paradigma funcional para o paradigma Orientado a Obejtos no curso "TypeScript: aplicando orientação a objetos no Front-End" com a instrutora Mônica Hillman;
 
 2ª - "Fokus" -> Evoluindo com TypeScript o projeto Fokus desenvolvido com o instrutor Luan Alves no curso "JavaScript: manipulando o DOM";
 

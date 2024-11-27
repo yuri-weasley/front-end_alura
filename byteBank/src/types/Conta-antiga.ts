@@ -1,3 +1,9 @@
+/* 
+    Módulo que representa a nossa conta
+Foi excluído para que pudéssemos sair do paradigma funcional para o O.O, porém serviu de base para a construção do obejto conta
+
+*/
+
 import { Transacao } from "./Transacao.js";
 import { TipoTransacao } from "./TipoTransacao.js";
 import { GrupoTransacao } from "./GrupoTransacao.js";
@@ -44,7 +50,9 @@ const Conta = {
     getGruposTransacoes(): GrupoTransacao[] {
         const gruposTransacoes: GrupoTransacao[] = [];
         const listaTransacoes: Transacao[] = structuredClone(transacoes);
+        //comando que faz uma cópia do objeto, sem alterar o original
         const transacoesOrdenadas: Transacao[] = listaTransacoes.sort((t1, t2) => t2.data.getTime() - t1.data.getTime());
+        //ordena as datas da mais recente para a mais antiga
         let labelAtualGrupoTransacao: string = "";
 
         for (let transacao of transacoesOrdenadas) {
@@ -57,6 +65,7 @@ const Conta = {
                 });
             }
             gruposTransacoes.at(-1).transacoes.push(transacao);
+            //at -1 vai na última posição do array
         }
 
         return gruposTransacoes;

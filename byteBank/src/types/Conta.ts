@@ -1,5 +1,3 @@
-//Módulo que representa a nossa conta
-
 import { Armazenador } from "./Armazenador.js";
 import { ValidaDebito, ValidaDeposito } from "./Decorator.js";
 import { GrupoTransacao } from "./GrupoTransacao.js";
@@ -7,7 +5,7 @@ import { TipoTransacao } from "./TipoTransacao.js";
 import { Transacao } from "./Transacao.js";
 
 export class Conta {
-    protected nome: string
+    protected nome: string;
     protected saldo: number = Armazenador.obter<number>("saldo") || 0;
     private transacoes: Transacao[] = Armazenador.obter<Transacao[]>(("transacoes"), (key: string, value: any) => {
         if(key === "data") {
@@ -27,9 +25,7 @@ export class Conta {
     getGruposTransacoes(): GrupoTransacao[] {
         const gruposTransacoes: GrupoTransacao[] = [];
         const listaTransacoes: Transacao[] = structuredClone(this.transacoes); 
-        //comando que faz uma cópia do objeto, sem alterar o original
         const transacoesOrdenadas: Transacao[] = listaTransacoes.sort((t1, t2) => t2.data.getTime() - t1.data.getTime()); 
-        //ordena as datas da mais recente para a mais antiga
         let labelAtualGrupoTransacao: string = "";
 
         for (let transacao of transacoesOrdenadas) {
@@ -42,7 +38,6 @@ export class Conta {
                 });
             }
             gruposTransacoes.at(-1).transacoes.push(transacao);
-            //at -1 vai na última posição do array
         }
 
         return gruposTransacoes;

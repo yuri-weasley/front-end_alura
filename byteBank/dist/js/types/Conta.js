@@ -1,4 +1,3 @@
-//Módulo que representa a nossa conta
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -26,9 +25,7 @@ export class Conta {
     getGruposTransacoes() {
         const gruposTransacoes = [];
         const listaTransacoes = structuredClone(this.transacoes);
-        //comando que faz uma cópia do objeto, sem alterar o original
         const transacoesOrdenadas = listaTransacoes.sort((t1, t2) => t2.data.getTime() - t1.data.getTime());
-        //ordena as datas da mais recente para a mais antiga
         let labelAtualGrupoTransacao = "";
         for (let transacao of transacoesOrdenadas) {
             let labelGrupoTransacao = transacao.data.toLocaleDateString("pt-br", { month: "long", year: "numeric" });
@@ -40,7 +37,6 @@ export class Conta {
                 });
             }
             gruposTransacoes.at(-1).transacoes.push(transacao);
-            //at -1 vai na última posição do array
         }
         return gruposTransacoes;
     }

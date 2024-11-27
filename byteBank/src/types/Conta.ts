@@ -1,3 +1,5 @@
+//Paradigma Orientado a Objetos implementado
+
 import { Armazenador } from "./Armazenador.js";
 import { ValidaDebito, ValidaDeposito } from "./Decorator.js";
 import { GrupoTransacao } from "./GrupoTransacao.js";

@@ -1,6 +1,6 @@
 //Módulo que representa a nossa conta
 
-import { Armazenador } from "./armazenador.js";
+import { Armazenador } from "./Armazenador.js";
 import { ValidaDebito, ValidaDeposito } from "./Decorator.js";
 import { GrupoTransacao } from "./GrupoTransacao.js";
 import { TipoTransacao } from "./TipoTransacao.js";
@@ -72,7 +72,6 @@ export class Conta {
 
     @ValidaDebito
     debitar(valor: number): void {
-    
         this.saldo -= valor;
         Armazenador.salvar("saldo", this.saldo.toString());
     }

@@ -26,8 +26,10 @@ export class Conta {
 
     getGruposTransacoes(): GrupoTransacao[] {
         const gruposTransacoes: GrupoTransacao[] = [];
-        const listaTransacoes: Transacao[] = structuredClone(this.transacoes);
-        const transacoesOrdenadas: Transacao[] = listaTransacoes.sort((t1, t2) => t2.data.getTime() - t1.data.getTime());
+        const listaTransacoes: Transacao[] = structuredClone(this.transacoes); 
+        //comando que faz uma cópia do objeto, sem alterar o original
+        const transacoesOrdenadas: Transacao[] = listaTransacoes.sort((t1, t2) => t2.data.getTime() - t1.data.getTime()); 
+        //ordena as datas da mais recente para a mais antiga
         let labelAtualGrupoTransacao: string = "";
 
         for (let transacao of transacoesOrdenadas) {
@@ -40,6 +42,7 @@ export class Conta {
                 });
             }
             gruposTransacoes.at(-1).transacoes.push(transacao);
+            //at -1 vai na última posição do array
         }
 
         return gruposTransacoes;

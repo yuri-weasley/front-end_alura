@@ -1,3 +1,4 @@
+//Sempre que for definir tipos e enums, usar o PascalCase
 export var FormatoData;
 (function (FormatoData) {
     FormatoData["PADRAO"] = "DD/MM/AAAA";

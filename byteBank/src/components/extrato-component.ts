@@ -16,7 +16,7 @@ function renderizarExtrato(): void {
         let htmlTransacaoItem: string = "";
         for (let transacao of grupoTransacao.transacoes)
         {
-            htmlTransacaoItem += `
+            htmlTransacaoItem +=`
                 <div class="transacao-item">
                     <div class="transacao-info">
                         <span class="tipo">${transacao.tipoTransacao}</span>

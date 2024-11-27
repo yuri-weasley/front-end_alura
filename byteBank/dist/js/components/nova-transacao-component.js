@@ -1,6 +1,7 @@
 import SaldoComponent from "./saldo-component.js";
 import Conta from "../types/Conta.js";
 import ExtratoComponent from "./extrato-component.js";
+//Esse arquivo controla o formulário de novas transações
 const elementoFormulario = document.querySelector(".block-nova-transacao form");
 elementoFormulario.addEventListener("submit", function (event) {
     try {
@@ -15,6 +16,7 @@ elementoFormulario.addEventListener("submit", function (event) {
         let tipoTransacao = inputTipoTransacao.value;
         let valor = inputValor.valueAsNumber;
         let data = new Date(inputData.value + " 00:00:00");
+        //para o JS entender a data correta (problema do date que o JS tem)
         const novaTransacao = {
             tipoTransacao: tipoTransacao,
             valor: valor,

@@ -83,7 +83,6 @@ export class Conta {
     }
 }
 
-
 export class ContaPremium extends Conta {
     registrarTransacao(transacao: Transacao): void {
         if(transacao.tipoTransacao === TipoTransacao.DEPOSITO) {

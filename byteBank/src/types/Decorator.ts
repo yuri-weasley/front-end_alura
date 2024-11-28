@@ -3,10 +3,10 @@ export function ValidaDebito(target: any, propertyKey: string, descriptor: Prope
 
     descriptor.value = function (valorDoDebito: number) {
         if(valorDoDebito <= 0) {
-            throw new Error("O valor a ser debitado precisa ser maior do que zero!")
+            throw new Error("O valor a ser debitado precisa ser maior do que zero!");
         }
         if(valorDoDebito > this.saldo) {
-            throw new Error("Seu saldo é insuficiente para realizar a operação!")
+            throw new Error("Seu saldo é insuficiente para realizar a operação!");
         }
         return originalMethod.apply(this, [valorDoDebito])
     }
@@ -17,7 +17,7 @@ export function ValidaDeposito(target: any, propertyKey: string, descriptor: Pro
     const originalMethod = descriptor.value;
     descriptor.value = function (valorDoDeposito: number) {
         if(valorDoDeposito <= 0) {
-            throw new Error("O valor a ser depositado deve ser maior do que zero!")
+            throw new Error("O valor a ser depositado deve ser maior do que zero!");
         }
         return originalMethod.apply(this, [valorDoDeposito]);
     }

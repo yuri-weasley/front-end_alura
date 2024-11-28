@@ -23,7 +23,7 @@ export class Armazenador {
 }
 
 /* 
-    Sobre métodos estáticos
+    Sobre métodos estáticos...
 
     uando estamos trabalhando com TypeScript, pode ser necessário criar classes e métodos que possam ser acessados sem precisar criar um objeto da classe. Os métodos estáticos são uma maneira poderosa de definir comportamentos e lógicas que podem ser usados diretamente na classe, sem a necessidade de criar objetos.
 

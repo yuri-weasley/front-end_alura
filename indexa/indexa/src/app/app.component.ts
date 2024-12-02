@@ -6,6 +6,10 @@ import { CabecalhoComponent } from "./componentes/cabecalho/cabecalho.component"
 import { SeparadorComponent } from './componentes/separador/separador.component';
 import { ContatoComponent } from "./componentes/contato/contato.component";
 
+interface Contato {
+  
+}
+
 @Component({
   selector: 'app-root',
   standalone: true,

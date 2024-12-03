@@ -7,8 +7,12 @@ import { SeparadorComponent } from './componentes/separador/separador.component'
 import { ContatoComponent } from "./componentes/contato/contato.component";
 
 interface Contato {
-  
+  id: number;
+  nome: string;
+  telefone: string;
 }
+
+import agenda from './agenda.json';
 
 @Component({
   selector: 'app-root',
@@ -25,5 +29,12 @@ interface Contato {
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  alfabeto: string = 'abcdefghijklmnopqrstuvwxyz'
+  alfabeto: string = 'abcdefghijklmnopqrstuvwxyz';
+  contatos: Contato[] = agenda;
+
+  filtrarContatosPorLetraInicial(letra:string): Contato[] {
+    return this.contatos.filter( contato => {
+      return contato.nome.toLowerCase().startsWith(letra);
+    })
+  }
 }

@@ -36,18 +36,25 @@ export class AppComponent {
 
   filtroPorTexto: string = '';
 
+  // Remove os acentos de uma string
+  private removerAcentos(texto: string): string {
+    return texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  }
+
   filtrarContatosPortexto(): Contato[] {
     if(!this.filtroPorTexto) {
       return this.contatos
     }
     return this.contatos.filter(contato => {
-      return contato.nome.toLowerCase().includes(this.filtroPorTexto.toLowerCase());
+      // Compara os nomes sem acentuações
+      return this.removerAcentos(contato.nome).toLowerCase().includes(this.removerAcentos(this.filtroPorTexto).toLowerCase());
     })
   }
 
-  filtrarContatosPorLetraInicial(letra:string): Contato[] {
+  filtrarContatosPorLetraInicial(letra: string): Contato[] {
     return this.filtrarContatosPortexto().filter( contato => {
-      return contato.nome.toLowerCase().startsWith(letra);
+      // Compara a letra inicial sem considerar acentuações
+      return this.removerAcentos(contato.nome).toLowerCase().startsWith(this.removerAcentos(letra).toLowerCase());
     })
   }
 }

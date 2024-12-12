@@ -36,3 +36,5 @@ Pasta única "bootstrap" -> Formação completa do curso de Bootstrap com o dese
 
 2ª - "indexa" -> Projeto de uma lista telefônica iniciado no curso "Angular: construa uma aplicação web com componentes, linguagem de template e CLI" com o instrutor Vinicios Neves, continuado no curso "Angular: evoluindo com formulários e roteamento" com a instrutora Nayanne Batista
 
+OBS.: artigo da Alura que explica os primeiros passos na prática com o Angular: https://www.alura.com.br/artigos/criando-aplicacoes-angular-com-angular-cli - Achei mega pertinente
+

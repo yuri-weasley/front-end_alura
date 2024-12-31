@@ -21,7 +21,7 @@
     margin: 0;
 }
 
-.cabecalho .titulo span {
+.cabecalho .titulo ::ng-deep span {
     color: #fd9843; 
 }
 .cabecalho a {
@@ -44,4 +44,20 @@
   
   .cabecalho .seta {
     margin: 0 8px;
+  }
+
+  .cabecalho .link button {
+    border: none;
+    background-color: transparent;
+  }
+
+  .cabecalho .titulo-form {
+    font-family: 'Montserrat';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #0D6EFD;
+    margin: -28px;
   }

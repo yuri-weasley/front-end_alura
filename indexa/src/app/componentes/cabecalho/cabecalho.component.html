@@ -9,5 +9,8 @@
           </div>
     }
     <img [src]="bannerSrc" class="banner">
-    <h1 [innerText]="titulo" class="titulo"></h1>
+    <h1 
+      [innerHTML]="titulo" 
+      [ngClass]="telaInicial ? 'titulo' : 'titulo-form'"
+    ></h1>
 </header>

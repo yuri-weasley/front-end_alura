@@ -75,3 +75,40 @@
 .rodape_coluna_list_item:last-child {
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .rodape_linha:first-child {
+        display: grid;
+        grid-template-areas:
+        "logo logo logo"
+        "funcionamento institucional informações";
+        justify-content: space-between;
+        column-gap: 68px;
+    }
+
+    .rodape_linha:first-child .rodape_coluna:nth-child(2) {
+        grid-area: funcionamento;
+        margin-bottom: 24px;
+    }
+
+    .rodape_linha:first-child .rodape_coluna:nth-child(3) {
+        grid-area: institucional;
+    }
+
+    .rodape_linha:first-child .rodape_coluna:nth-child(4) {
+        grid-area: informações;
+    }
+
+    .rodape_linha:first-child .rodape_coluna_logo {
+        grid-area: logo;
+        text-align: center;
+        margin-bottom: 40px;
+        padding-bottom: 40px;
+        border-bottom: 1.5px solid var(--cor-destaque-secundario);
+    }
+
+    .rodape_linha:last-child {
+        border-top: none;
+        padding-top: 32px;
+    }
+}

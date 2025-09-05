@@ -38,3 +38,6 @@ Pasta única "bootstrap" -> Formação completa do curso de Bootstrap com o dese
 
 OBS.: artigo da Alura que explica os primeiros passos na prática com o Angular: https://www.alura.com.br/artigos/criando-aplicacoes-angular-com-angular-cli - Achei mega pertinente
 
+- Formação React
+
+1ª - "Organo" -> Projeto desenvolvido no Curso de "React: desenvolvendo com JavaScript"

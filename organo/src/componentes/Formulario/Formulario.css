@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     margin: 80 0;
+    margin: 32px;
 }
 
 .formulario form {

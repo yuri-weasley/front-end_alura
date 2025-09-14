@@ -8,7 +8,6 @@ export const Banner = () => {
             <header className="banner">
             <img src="/imagens/banner.png" alt="O banner principal da página do Organo"/>
         </header>
-        <h1>Teste</h1>
         </>
     )
 }

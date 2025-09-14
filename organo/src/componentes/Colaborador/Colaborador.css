@@ -1,5 +1,4 @@
 .colaborador {
-    position: relative;
     width: 280px;
 }
 
@@ -27,10 +26,4 @@
     color: #6278F7;
     font-size: 18px;
     line-height: 22px;
-}
-
-.deletar {
-    position: absolute;
-    right: -10px;
-    top: -10px;
 }

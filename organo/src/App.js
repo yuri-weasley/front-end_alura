@@ -47,8 +47,11 @@ function App() {
   const [colaboradores, setColaboradores] = useState([])
 
   const aoNovoColaboradorAdicionado = (colaborador) => {
-    debugger
     setColaboradores([...colaboradores, colaborador])
+  }
+
+   function deletarColaborador(nome) {
+    
   }
 
   return (
@@ -62,6 +65,7 @@ function App() {
       corPrimaria={time.corPrimaria} 
       corSecundaria={time.corSecundaria}
       colaboradores={colaboradores.filter(colaborador => colaborador.time === time.nome)}
+      aoDeletar={deletarColaborador}
       ></Time>)}
       <Rodape/>
     </div>

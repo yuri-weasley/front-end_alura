@@ -34,10 +34,12 @@ Pasta única "bootstrap" -> Formação completa do curso de Bootstrap com o dese
 
 1ª - "aluraMidi" -> Projeto feito no curso "JavaScript para Web: Crie páginas dinâmicas" com a instrutora Vanessa Tonini de um player de sons usando JavaScript;
 
-2ª - "indexa" -> Projeto de uma lista telefônica iniciado no curso "Angular: construa uma aplicação web com componentes, linguagem de template e CLI" com o instrutor Vinicios Neves, continuado no curso "Angular: evoluindo com formulários e roteamento" com a instrutora Nayanne Batista
+2ª - "indexa" -> Projeto de uma lista telefônica iniciado no curso "Angular: construa uma aplicação web com componentes, linguagem de template e CLI" com o instrutor Vinicios Neves, continuado no curso "Angular: evoluindo com formulários e roteamento" com a instrutora Nayanne Batista;
 
 OBS.: artigo da Alura que explica os primeiros passos na prática com o Angular: https://www.alura.com.br/artigos/criando-aplicacoes-angular-com-angular-cli - Achei mega pertinente
 
 - Formação React
 
-1ª - "Organo" -> Projeto desenvolvido no Curso de "React: desenvolvendo com JavaScript"
+1ª - "Organo" -> Projeto desenvolvido no Curso de "React: desenvolvendo com JavaScript";
+
+2ª - "use-state" -> Uma pequena aplicação de consulta de CEP's para entendermos o funcionemento do Hook 'useState';

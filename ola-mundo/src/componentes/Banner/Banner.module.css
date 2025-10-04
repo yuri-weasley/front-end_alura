@@ -20,12 +20,12 @@
     margin-bottom: 2rem;
 }
  
-.imagens {
+.imagem {
     position: relative;
     height: 406px;
 }
  
-.imagens > .minhaFoto {
+.imagem > .minhaFoto {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -33,7 +33,7 @@
     border-radius: 50%;
 }
  
-.imagens > .circuloColorido {
+.imagem > .circuloColorido {
     position: absolute;
     right: 7vw;
     bottom: 2.2vw;

@@ -21,7 +21,7 @@ export default function Banner() {
 
                 <img
                     className={styles.minhaFoto}
-                    src={styles.minhaFoto}
+                    src={minhaFoto}
                     alt="Foto do Antônio"
                 />
             </div>

@@ -40,6 +40,8 @@ OBS.: artigo da Alura que explica os primeiros passos na prática com o Angular:
 
 - Formação React
 
-1ª - "Organo" -> Projeto desenvolvido no Curso de "React: desenvolvendo com JavaScript";
+1ª - "Organo" -> Projeto desenvolvido no Curso de "React: desenvolvendo com JavaScript" com os instrutores Paulo Silveira e o Vinicios Neves;
 
 2ª - "use-state" -> Uma pequena aplicação de consulta de CEP's para entendermos o funcionemento do Hook 'useState';
+
+3ª - "ola-mundo" -> Projeto desenvolvido no curso "React: desenvolvendo em React Router com JavaScript" com o instrutor Antônio Evaldo;

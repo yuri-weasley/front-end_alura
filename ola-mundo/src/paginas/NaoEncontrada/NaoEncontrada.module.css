@@ -35,7 +35,7 @@
 .imagemCachorro {
     position: absolute;
     height: 25vw;
-    bottom: calc(-25vw * 0.5);
+    bottom: calc(-25vw * 0.77);
 }
 
 .espacoEmBranco {

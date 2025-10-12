@@ -45,3 +45,5 @@ OBS.: artigo da Alura que explica os primeiros passos na prática com o Angular:
 2ª - "use-state" -> Uma pequena aplicação de consulta de CEP's para entendermos o funcionemento do Hook 'useState';
 
 3ª - "ola-mundo" -> Projeto desenvolvido no curso "React: desenvolvendo em React Router com JavaScript" com o instrutor Antônio Evaldo;
+
+4ª - "space-app" -> Projeto desenvolvido no curso "React: estilize componentes com Styled Components e manipule arquivos estáticos" com os instrutoress Vinicios neves e João Victor;

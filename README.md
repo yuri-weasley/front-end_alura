@@ -47,3 +47,5 @@ OBS.: artigo da Alura que explica os primeiros passos na prática com o Angular:
 3ª - "ola-mundo" -> Projeto desenvolvido no curso "React: desenvolvendo em React Router com JavaScript" com o instrutor Antônio Evaldo;
 
 4ª - "space-app" -> Projeto desenvolvido no curso "React: estilize componentes com Styled Components e manipule arquivos estáticos" com os instrutoress Vinicios neves e João Victor;
+
+5ª - "meteora" -> Projeto desenvolvido no curso "React: gerencie estados globalmente com Context API" com o instrutor Neilton Seguins;
